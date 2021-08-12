@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "praca gov uzupelnienie formularzy",
+    "version": "0.1",
+    "description": "Chrome Extension to fill a form from json",
+    "browser_action": {
+        "default_icon": "icon32.png",
+        "default_popup": "popup.html",
+        "default_title": "praca gov uzupelnienie formularzy"
+    },
+    "permissions": [
+        "https://www.praca.gov.pl/",
+        "activeTab",
+        "storage"
+    ],
+    "icons": {
+        "16": "icon16.png",
+        "32": "icon32.png",
+        "48": "icon48.png",
+        "128": "icon128.png",
+        "192": "icon192.png"
+    }
+}
